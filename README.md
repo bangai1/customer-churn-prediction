@@ -7,15 +7,15 @@ This project focuses on researching and critically evaluating the Data Engineeri
 
 ## Case Study Wikimedia Foundation (Wikipedia)
 
--Data Sources
+-Data Sources (Berkay)
 
--Storage Technologies
+-Storage Technologies (Deeksha)
 
--Data Processing Approaches
+-Data Processing Approaches (Thanusree)
 
--Scalability
+-Scalability (Hussian)
 
--Critical Evaluation 
+-Critical Evaluation (Shivamani)
 
 <br/>
 
