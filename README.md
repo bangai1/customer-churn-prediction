@@ -13,9 +13,11 @@ This project focuses on researching and critically evaluating the Data Engineeri
 
 -Data Processing Approaches (Thanusree)
 
--Scalability (Hussian)
+-Scalability (Shivamani)
 
--Critical Evaluation (Shivamani)
+-Critical Evaluation (Ravi)
+
+-Data Consumers & Use Cases(Hussian)
 
 <br/>
 
