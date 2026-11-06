@@ -1,23 +1,8 @@
 # Team Data Engineering Project 
-Data Engineering For Team Project - Wikimedia Case Study
+Data Engineering For Team Project 
 
 ## Project Overview
 
-This project focuses on researching and critically evaluating the Data Engineering infrastructure used by the Wikimedia Foundation.
-
-## Case Study Wikimedia Foundation (Wikipedia)
-
--Data Sources (Berkay)
-
--Storage Technologies (Deeksha)
-
--Data Processing Approaches (Thanusree)
-
--Scalability (Shivamani)
-
--Critical Evaluation (Ravi)
-
--Data Consumers & Use Cases(Hussian)
 
 <br/>
 
