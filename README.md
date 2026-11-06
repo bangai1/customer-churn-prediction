@@ -3,6 +3,9 @@ Data Engineering For Team Project
 
 ## Project Overview
 
+This project focuses on exploring, preparing and processing datasets to develop a data engineering pipeline for customer churn prediction.
+
+The team will investigate the supplied datasets and database, identify relevant data relationships, design an ETL pipeline and prepare a structured Parquet dataset for further analysis and machine learning.
 
 <br/>
 
@@ -31,21 +34,33 @@ Purını Ravıkıran (25107457)
 
 ***Project Structure***
 
-research/ - Individual research contributions
+* data/ - Supplied datasets and processed data.
 
-references/ - Academic and technical references
+* notebooks/ - Jupyter notebooks for data exploration, analysis and processing.
 
-presentation/ - Presentation planning and materials
+* docs/ - Project documentation, ER diagrams, ETL designs and meeting notes.
+
+* output/ - Cleaned datasets, Parquet files, exported notebooks, models and visualisations.
+
+* README.md - Project overview and documentation.
+
+* .gitignore - Files and directories excluded from version control.
 
 <br/>
 
 
 ***Objectives***
 
-Understand Wikimedia's Data Engineering architecture.
+*Explore and understand the supplied datasets and SQLite database.
 
-Evaluate its technological choices.
+* Identify relevant data sources, relationships and potential churn indicators.
 
-Identify strengths, weaknesses and alternatives.
+* Develop an Entity Relationship (ER) diagram to represent the database structure.
 
-Consider ethical, privacy and governance issues.
+* Identify technical skill gaps and create individual learning plans.
+
+* Design an ETL pipeline for extracting, transforming and loading data.
+
+* Perform data quality checks and prepare a structured Parquet dataset.
+
+* Apply data engineering and machine learning techniques to support customer churn prediction.
