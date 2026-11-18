@@ -1,1 +1,35 @@
 
+import sqlite3
+import os
+
+#Data Base path
+BASE_DIR = os.path.dirname(os.path.abspath(".."))
+DB_PATH = os.path.join(BASE_DIR, "PerfectPetClub.db")
+
+conn = sqlite3.connect(DB_PATH)
+cursor = conn.cursor()
+
+cursor.execute("INSERT OR IGNORE INTO product_category (id, name) VALUES (27, 'Subscription');")
+
+# 2. Making the products primary key to 27
+cursor.execute("""
+UPDATE product 
+SET product_category_id = 27 
+WHERE name LIKE '%subscription%';
+""")
+
+conn.commit()
+
+cursor.execute("SELECT id, name, product_category_id FROM product WHERE name LIKE '%subscription%'")
+updated_products = cursor.fetchall()
+
+conn.close()
+
+print("Products in the database")
+for p in updated_products:
+    print(p)
+
+
+#######
+
+
