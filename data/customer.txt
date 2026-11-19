@@ -32,4 +32,28 @@ for p in updated_products:
 
 #######
 
+import subprocess, sys, os
+
+notebooks = [
+    "ELT.ipynb",
+    "ML.ipynb",
+    "Pre_Processed_Data.ipynb"
+]
+
+def export_all_to_html(nb_list):
+    print(f"Working directory: {os.getcwd()}\n")
+    for nb in nb_list:
+        if not os.path.exists(nb):
+            print(f"[NOT FOUND] {nb}")
+            continue
+        
+        subprocess.run(
+            [sys.executable, "-m", "jupyter", "nbconvert", "--to", "html", nb],
+            check=True
+        )
+        html_path = os.path.abspath(nb.replace(".ipynb", ".html"))
+        print(f"[OK] {nb} -> {html_path}")
+
+export_all_to_html(notebooks)
+
 
