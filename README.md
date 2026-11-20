@@ -18,17 +18,7 @@ Seref Berkay Kaptan (25094845)
 
 **Group Members**
 
-Seref Berkay Kaptan (25094845)
-
-Deeksha Dhananjaya (25081261) 
-
-Thanusree Tulasi (25115457) 
-
-Shivamani Challala (25116261) 
-
-Rannu Hussaın Shaık(25106997) 
-
-Purını Ravıkıran (25107457) 
+Seref Berkay Kaptan (25094845) 
 
 <br/>
 
