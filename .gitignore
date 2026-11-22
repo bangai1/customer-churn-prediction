@@ -1,14 +1,13 @@
-# Excel ve veri dosyaları
+# Excel and data files
 *.xlsx
 *.xls
 *.csv
 *.parquet
 
-# Eğer tüm data veya output klasörünü tamamen yoksaymak istersen:
 data/
 output/
 
-# Python & Jupyter Notebook geçici dosyaları
+# Python & Jupyter Notebook 
 __pycache__/
 .ipynb_checkpoints/
 *.py[cod]
