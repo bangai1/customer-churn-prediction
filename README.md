@@ -5,7 +5,7 @@ Data Engineering For Team Project
 
 This project focuses on exploring, preparing and processing datasets to develop a data engineering pipeline for customer churn prediction.
 
-The team will investigate the supplied datasets and database, identify relevant data relationships, design an ETL pipeline and prepare a structured Parquet dataset for further analysis and machine learning.
+The team will analyse the supplied datasets and database, identify relevant data relationships, design an ETL pipeline and prepare a structured Parquet dataset for further analysis and machine learning.
 
 <br/>
 
@@ -41,7 +41,7 @@ Seref Berkay Kaptan (25094845)
 
 ***Objectives***
 
-*Explore and understand the supplied datasets and SQLite database.
+**Explore and understand the supplied datasets and SQLite database.**
 
 * Identify relevant data sources, relationships and potential churn indicators.
 
